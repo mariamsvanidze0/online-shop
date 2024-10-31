@@ -61,7 +61,6 @@
 }
 
 .search-bar {
-    /* width: 118+0px; */
     display: flex;
     align-items: center;
     text-align: center;
@@ -117,8 +116,6 @@
 }
 
 .mini-navbar {
-    /* position: relative;
-    bottom: 60px; */
     left: 380px;
     width: 100%;
     z-index: 2;
@@ -126,6 +123,7 @@
     height: 50px;
 
 }
+
 .mini-navbar2 {
     display: flex; 
     justify-content: space-around;
@@ -161,8 +159,6 @@
     background-image: url(./images/1A-seasonal-offer-desktop.avif);
     width: 100%;
     height: 900px;
-    /* position: relative;
-    bottom: 70px; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -189,8 +185,6 @@
 }
 #sig-id {
     font-size: 40px;
-    /* position: relative;
-    bottom: 40px; */
     margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 30px;
@@ -219,6 +213,250 @@
     text-decoration: none;
 }
 
+.iconic {
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.iconic img {
+    width: 1100px;
+    height: 850px;
+}
+
+.iconic-1 {
+    margin-left: 140px;
+}
+
+.iconic-1 h1 {
+    color: rgb(2, 50, 32);
+    font-size: 37px;
+    width: 450px;
+    text-transform: uppercase;
+}
+
+.iconic-1 p {
+    color: rgb(2, 50, 32);
+    width: 500px;
+    font-size: 15px;
+}
+
+.iconic-1 button {
+    margin-top: 25px;
+    padding: 12px;
+    background-color: rgb(2, 50, 32);
+    color: #fff;
+}
+
+.iconic-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 110px;
+    position: relative;
+}
+
+.iconic-2 img {
+    width: 910px;
+    height: 910px;
+
+}
+
+.iconic-text {
+    position: absolute;
+    left: 70px;
+    bottom: 70px;
+    color: #fff;
+    font-size: 22px;  
+}
+
+.first-iconic button {
+    padding: 14px;
+    background-color: #fff;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.iconic-text2 {
+    position: absolute;
+    left: 1070px;
+    bottom: 70px;
+    color: #fff;
+    font-size: 22px;  
+}
+
+.second-iconic button {
+    padding: 14px;
+    background-color: #fff;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.lacoste {
+    margin-top: 60px;
+    background-color: #636363;
+}
+
+.lacoste-text {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+
+}
+
+.lacoste-text h1 {
+    color: #fff;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.lacoste-text img {
+    width: 70px;
+    margin-top: 40px;
+}
+
+.lacoste-img {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.lacoste-img img {
+    width: 1000px;
+    height: 750px;
+}
+
+.lacoste-text2 {
+    margin-top: 480px;
+    margin-left: 80px;
+}
+
+.lacoste-text2 h4 {
+    color: #fff;
+}
+
+.lacoste-text2 h1 {
+    color: #fff;
+    font-size: 27px;
+    width: 350px;
+}
+
+.lacoste-text2 p {
+    color: #fff;
+    width: 520px;
+}
+
+.lacoste-text2 button {
+    padding: 14px;
+    background-color: #fff;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 767px) {
   
@@ -240,3 +478,4 @@
     }
 
 }
+
