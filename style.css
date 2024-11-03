@@ -293,7 +293,7 @@
 
 .lacoste {
     margin-top: 60px;
-    background-color: #636363;
+    background-color: #171616;
 }
 
 .lacoste-text {
@@ -351,19 +351,145 @@
     border: 1px solid black;
     margin-top: 10px;
 }
+.top-footer {
+    width:100%;
+    /* height: 600px; */
+    background-color: rgb(1, 42, 1);
+    display: flex;
 
+}
+.left-footer {
+   width: 40%;
+   border: solid 0.5px rgb(113, 113, 113);
+}
+.le-club {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    
+} 
+.le-club h1 {
+    color: white;
+    font-size: 15px;
+    margin-left: 35px;
+}
+.le-club img {
+    margin-left: 110px;
+}
+.email {
+    /* width: 35%; */
+    align-items: center;
+    display: flex;
+}
+.email button {
+    width: 40%;
+    height: 100px;
+    background-color: rgb(1, 42, 1);
+    color: white;
+    font-size: 15px;
+    border: solid 0.5px rgb(113, 113, 113);
+}
+.email input {
+    width: 60%;
+    height: 100px;
+    background-color: rgb(1, 42, 1);
+    border: solid 0.5px rgb(113, 113, 113);
+    padding-left: 30px;
+    font-size: 16px;
+}
+.join-btn {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    text-transform: uppercase;
+}
+.join-btn img {
+    width: 23px;
+    margin-left: 14px;
+}
+.right-footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 80px;
+}
+.right-footer div {
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    padding-left: 8%;
+}
+.right-footer div h1 {
+    color: #fff;
+    font-size: 18px;
 
+}
+.right-footer div a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.right-footer div p {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 12px;
+    width: 310px;
+}
 
+.socials i{
+color:white;
+padding-top: 20px;
+font-size: 20px;
 
+}
+.socials h2 {
+    font-size: 15px;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+.lac-footer {
+    background-color:  rgb(1, 42, 1);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width:auto;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    border: solid 0.5px rgb(113, 113, 113);
+}
 
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    height : 120px;
+    align-items: center;
+}
+.bottom-footer div {
+    display: flex;
+    justify-content: space-around;
+     width: 70%;
+}
+.bottom-footer a {
+   text-decoration: none;
+   color: rgb(34, 33, 33);
+   font-size: 15px;
+}
+.bottom-footer a:hover {
+    text-decoration: underline;
 
-
-
-
-
-
-
-
+}
 
 
 
